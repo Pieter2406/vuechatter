@@ -4,12 +4,11 @@ import router from './router';
 import store from './store';
 import BootstrapVue from 'bootstrap-vue';
 import './styles/build.scss';
-
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
-
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    render: h => h(App)
 }).$mount('#app');
+//# sourceMappingURL=main.js.map
